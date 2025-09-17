@@ -1,5 +1,5 @@
 #pragma once
-#pragma pack(push, 1)
+#pragma pack(push, 1) // выравниванием данных в структурах (упаковка без лишних байт).
 
 struct employee
 {
@@ -8,4 +8,4 @@ struct employee
 	double hours; // количество отработанных часов
 };
 
-#pragma pack(pop)
+#pragma pack(pop) // вернуть стандартные настройки упаковки
